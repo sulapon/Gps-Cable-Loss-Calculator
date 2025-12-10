@@ -292,6 +292,15 @@
   }
 
 </style>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0a4cff">
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+
 </head>
 <body>
 
